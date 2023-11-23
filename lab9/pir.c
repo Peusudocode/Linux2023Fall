@@ -54,7 +54,7 @@ int main(int argc, char** argv)
        }
        arr_pi[r] = (double)(4 * circle_points) / square_points;
     }
-    #if D_ROTSC
+    #if D_RDTSC
         uint64_t cycle = RDTSC()-c1;
         measure_rdtsc = cycle;
     #endif
